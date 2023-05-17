@@ -21,3 +21,27 @@ td, th{
   font-size: 14px;
   width: 100%;
 }
+
+.edit{
+  margin: 0 5px;
+}
+
+
+.delete:hover{
+  cursor: pointer;
+  color: #d83a1b;
+}
+
+.edit:hover{
+  cursor: pointer;
+  color: #077781;
+}
+
+.search:hover{
+  cursor: pointer;
+  color: rgb(17, 17, 201);
+}
+
+.agregar{
+  line-height: 28px;
+}
