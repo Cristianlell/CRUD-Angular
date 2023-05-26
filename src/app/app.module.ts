@@ -3,11 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AgregarEditarMascotaComponent } from './components/agregar-editar-mascota/agregar-editar-mascota.component';
-import { ListadoMascotaComponent } from './components/listado-mascota/listado-mascota.component';
-import { VerMascotaComponent } from './components/ver-mascota/ver-mascota.component';
+import { AgregarEditarComponent } from './components/agregar-editar/agregar-editar.component';
+import { ListadoComponent } from './components/listado/listado.component';
+import { VerComponent } from './components/ver/ver.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/material.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -16,15 +17,16 @@ import { MaterialModule } from './shared/material.module';
 @NgModule({
   declarations: [
     AppComponent,
-    AgregarEditarMascotaComponent,
-    ListadoMascotaComponent,
-    VerMascotaComponent
+    AgregarEditarComponent,
+    ListadoComponent,
+    VerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

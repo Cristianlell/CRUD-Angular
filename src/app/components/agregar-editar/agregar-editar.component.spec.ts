@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AgregarEditarMascotaComponent } from './agregar-editar-mascota.component';
+import { AgregarEditarMascotaComponent } from './agregar-editar.component';
 
 describe('AgregarEditarMascotaComponent', () => {
   let component: AgregarEditarMascotaComponent;

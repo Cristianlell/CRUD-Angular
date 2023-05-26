@@ -1,34 +1,34 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ListadoMascotaComponent } from './components/listado-mascota/listado-mascota.component';
-import { AgregarEditarMascotaComponent } from './components/agregar-editar-mascota/agregar-editar-mascota.component';
-import { VerMascotaComponent } from './components/ver-mascota/ver-mascota.component';
+import { ListadoComponent } from './components/listado/listado.component';
+import { AgregarEditarComponent } from './components/agregar-editar/agregar-editar.component';
+import { VerComponent } from './components/ver/ver.component';
 
 const routes: Routes = [
   {
     path:'',
-    redirectTo:'listaMascota',
+    redirectTo:'lista',
     pathMatch:'full'
   },
   {
-    path:'listaMascota',
-    component:ListadoMascotaComponent
+    path:'lista',
+    component:ListadoComponent
   },
   {
-    path:'agregarMascota',
-    component:AgregarEditarMascotaComponent
+    path:'agregar',
+    component:AgregarEditarComponent
   },
   {
-    path:'editarMascota/:id',
-    component:AgregarEditarMascotaComponent
+    path:'editar/:id',
+    component:AgregarEditarComponent
   },
   {
-    path:'verMascota/:id',
-    component:VerMascotaComponent
+    path:'ver/:id',
+    component:VerComponent
   },
   {
     path:'**',
-    redirectTo:'listaMascota',
+    redirectTo:'lista',
   }
 ];
 

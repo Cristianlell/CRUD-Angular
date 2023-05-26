@@ -18,17 +18,17 @@ td, th{
 
 .delete:hover{
   cursor: pointer;
-  color: #d83a1b;
+  color: #ff2a00;
 }
 
 .edit:hover{
   cursor: pointer;
-  color: #077781;
+  color: #00eaff;
 }
 
 .search:hover{
   cursor: pointer;
-  color: rgb(17, 17, 201);
+  color: rgb(0, 0, 255);
 }
 
 .agregar{
